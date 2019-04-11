@@ -1,0 +1,69 @@
+section{
+	width: 100%;
+	height: 100%;
+	padding: 3em;
+}
+
+section div{
+	background-color: rgba(179, 182, 183, 0.7);
+	width: 100%;
+	height: 100%;
+}
+
+section .row{
+	background-color: rgba(174, 36, 6, 0.9);
+	width:100%;
+	height: 3em;
+	float: none;
+	padding: 0.3em 0 0 0;
+
+	text-align: center;
+}
+
+section .row .boton1{
+	width: 20%;
+	height: 80%;
+	border: none;
+	border-radius: 1em;
+	background-color: rgba(31, 97, 141, 1);
+	font-weight: bold;
+	cursor: pointer;
+
+	color: white;
+	font-size: 1em;
+}
+
+section .row .boton1:hover{
+	background-color: rgba(31, 97, 141, 0.5);
+}
+
+section .row .boton2{
+	width: 20%;
+	height: 80%;
+	border: none;
+	border-radius: 1em;
+	background-color: rgba(241, 196, 15, 1);
+	font-weight: bold;
+	cursor: pointer;
+
+	
+	font-size: 1em;
+}
+
+section .row .boton2:hover{
+	background-color: rgba(241, 196, 15, 0.5);
+}
+
+section div .tabla {
+	margin: 1em;
+	width: 97%;
+	height: 87%;
+}
+
+section div .tabla h3 {
+	text-align: center;
+}
+
+section .tabla table{
+	width: 100%;
+}

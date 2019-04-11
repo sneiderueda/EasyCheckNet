@@ -15,7 +15,7 @@ body{
 }
 
 header{
-	background-color: rgba(2, 111, 226,0.8);
+	background-color: #333;
 	height: 60px;
 	width: 100%;
 }
@@ -81,6 +81,7 @@ section{
 	width: 30%;
 	height: 100%;
 	float: left;
+	padding: 3em;
 }
 
 .login-box{
@@ -88,12 +89,12 @@ section{
 	width: 40%;
 	height: 100%;
 	float: left;
-	padding: 3em;
+	padding: 5em 0 0 0;
 }
 
 .login{
 	border-radius: 1em;
-	background-color: rgba(242, 243, 244, .6);
+	background-color: rgba(242, 243, 244, 0.6);
 	height: 100%;
 	padding: 5em 3em 0 3em;
 }
@@ -104,7 +105,7 @@ section{
 	border-radius: 50%;
 	position: absolute;
 	top:4em;
-	left: 38.5em;
+	left: 37.5em;
 	opacity: .9;
 }
 
@@ -164,15 +165,13 @@ section{
 
 footer{
 	padding: 2em;
-	background-color: rgba(2, 111, 226,0.8);
-	height: 60px;
+	background-color: #333;
+	height: 1em;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
 
 	text-align: center;
-}
-
-footer h3{
 	color: white;
 }
+
