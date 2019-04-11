@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="estilos/index.css">
+	<link rel="short icon" href="img/iconEasy.png">
+	<title>EasyCheck-Login</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="col1">
+			<img src="img/iconEasy.png">
+			<h1>EasyCheck</h1>
+		</div>
+		<div class="col2">
+			<h1>INICIO</h1>
+		</div>
+		<div class="col3">
+			<button class="btn" onclick="llamar_login()">Ingresar</button>
+		</div>
+	</header>
+
+	<section>
+		<div class="cols"></div>
+		<div id="contenido" class="login-box">
+			<div class="login">
+				<img src="img/user.png">
+				<h1>LOGIN</h1>
+				<form action="librerias/menu/vista/menu.html">
+
+					<label for="">Usuario:</label>
+					<input type="text" placeholder="Ingrese su usuario">
+				
+					<label for="">Contraseña:</label>
+					<input type="password" placeholder="Ingrese su usuario">
+
+					<input type="submit" value="Ingresar">
+
+					<a href="#">¿Olvido su contraseña?</a>
+				</form>
+			</div>
+		</div>
+		<div class="cols"></div>
+	</section>
+	
+	<footer>
+		<h3>Derechos Reservados</h3>
+	</footer>
+</body>
+
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+</html>
