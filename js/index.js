@@ -1,3 +1,3 @@
 function llamar_login (){
-	$('#contenido').css('display','block');
+	$('.login').css('display','block');
 }

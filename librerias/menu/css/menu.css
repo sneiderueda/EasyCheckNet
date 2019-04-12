@@ -5,6 +5,10 @@
 	font-family: sans-serif;
 }
 
+.border{
+	border:1px solid black;
+}
+
 body{
 	background-image: url(../../../img/matrix-2326147_1920.jpg);
 	background-size: cover;
@@ -13,39 +17,30 @@ body{
 	height: 100vh;
 }
 
-.border{
-	border:1px solid black;
-}
-
 header{
 	background-color: #333;
-	height: 3em;
-	width: 100%;
-}
-
-header .col1 {
-	width: 25%;
-	height: 100%;
-	float: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 header .col1 img{
 	width: 4em;
-	height: 3em;
-	float: left;
+	height: 2.7em;
+	display: inline-block;
 }
 
 header .col1 h1{
-	float: left;
+	display: inline-block;
 	color: #fff;
-	height: 100%;
 }
 
 header .col2 {
-	width: 25%;
 	height: 100%;
 	float: left;
+	padding: 0.5em;
 	text-align: center;
+	color: #fff;
 }
 
 header .col2 h1{
@@ -56,25 +51,17 @@ header .col2 h1{
 }
 
 header .col3 {
-	width: 25%;
 	height: 100%;
 	float: left;
-}
-
-header .col3 h1{
-	float: left;
-	width: 80%;
-	height: 100%;
-	margin-left: 0.5em;
-
-	color: white;
+	padding: 0.5em;
+	text-align: center;
+	color: #fff;
 }
 
 header .col3 img{
 	width: 3em;
 	height: 100%;
-	float: left;
-	
+	display: inline-block;
 }
 
 header .col4 {
