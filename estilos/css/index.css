@@ -17,6 +17,7 @@ body {
 
 header {
   background-color: #333;
+  opacity: 0.9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,11 +33,11 @@ header {
   color: white; }
 
 header .col1 img {
-  width: 4em;
-  height: 3em;
+  width: 25px;
+  height: 20px;
   display: inline-block; }
 
-header .col1 h1 {
+header .col1 h3 {
   display: inline-block; }
 
 header .col3 button {
@@ -46,7 +47,7 @@ header .col3 button {
   border: none;
   color: #fff;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 16px;
   cursor: pointer; }
 
 section {
@@ -92,7 +93,8 @@ section {
 
 .login input {
   width: 100%;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: white; }
 
 .login input[type="text"], .login input[type="password"] {
   border: none;
@@ -122,6 +124,7 @@ footer {
       justify-content: space-around;
   width: 100%;
   background-color: #333;
+  opacity: 0.9;
   position: fixed;
   bottom: 0;
   text-align: center;

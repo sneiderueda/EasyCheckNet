@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../../usuarios/css/usuario.css">
 	<link rel="short icon" href="../../../img/iconEasy.png">
 	<title>EasyCheck - Menu</title>
 </head>
@@ -12,62 +13,66 @@
 		<div class="col1 ">
 			<div class="">
 				<img src="../../../img/iconEasy.png">
+				<h3>EasyCheck</h3>
 			</div>
-			<h1>EasyCheck</h1>
-		</div>
-		<div class="col2 ">
-			<h1>MENU</h1>
 		</div>
 		<div class="col3">
 			<img src="../../../img/userMenu.png">
-			<h1>Nombre Usuario</h1>
+			<h3>Nombre Usuario</h3>
 		</div>
 		<div class="col4">
 			<button class="btn" onclick="salir()">Salir</button>
 		</div>
 	</header>
 
-	<nav class="">
-		<div class="dropdown">
-		<button class="dropboton border">Configuracion</button>
-		<div class="dropdown-content border">
-			<a href="javascript:usuarios()">Usuarios</a>
-			<a href="#">Tipo Documento</a>
-			<a href="#">Tipo Terceros</a>
-		</div>
-		</div>
-		<div class="dropdown">
-		<button class="dropboton border">Proveedores y Clientes</button>
-		<div class="dropdown-content border">
-			<a href="#">Proveedores</a>
-			<a href="#">Clientes</a>
-		</div>
-		</div>
-		<div class="dropdown">
-		<button class="dropboton border">Inventario</button>
-		<div class="dropdown-content border">
-			<a href="#">Productos</a>
-			<ul>Configuracion >
-				<li><a href="#" class="a1">Unidades Medida</a></li>
-				<li><a href="#" class="a1">Prueba</a></li>
-			</ul>
-		</div>
-		</div>
-		<div class="dropdown">
-		<button class="dropboton border">Ventas</button>
-		<div class="dropdown-content border">
-			<a href="#">Abrir Caja</a>
-			<a href="#">Arqueo Caja</a>
-		</div>
-		</div>
-		<div class="dropdown">
-		<button class="dropboton border">Compras y Gastos</button>
-		<div class="dropdown-content border">
-			<a href="#">Compras</a>
-			<a href="#">Gastos</a>
-		</div>
-		</div>
-	</nav>
+	<div class="menu">
+		<ul class="nav">
+			<li><a href="#">CONFIGURACIÓN</a>
+				<ul>
+					<li><a href="javascript:usuarios()">USUARIOS</a></li>
+					<li><a href="#">TIPO DOCUMENTOS</a></li>
+					<li><a href="#">TIPO TERCEROS</a></li>
+					<li><a href="#">TIPO IDENTIFICACION</a></li>
+					<li><a href="#">CAMBIAR CONTRASEÑA</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="#">TERCEROS</a>
+				<ul>
+					<li><a href="#">PROVEEDORES</a></li>
+					<li><a href="#">CLIENTES</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">INVENTARIO</a>
+				<ul>
+					<li><a href="#">PRODUCTOS</a></li>
+					<li><a href="#">AJUSTES</a>
+						<ul>
+							<li><a href="#">UNIDADES DE MEDIDA</a></li>
+							<li><a href="#">IMPUESTOS</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li><a href="#">VENTAS</a>
+				<ul>
+					<li><a href="#">ABRIR CAJA</a></li>
+					<li><a href="#">ARQUEO CAJA</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="#">COMPRAS Y GASTOS</a>
+				<ul>
+					<li><a href="#">REGISTRAR FACTURA</a></li>
+					<li><a href="#">REGISTRAR GASTOS</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div class="contenido border" id="contenido"></div>
 </body>
 <script type="text/javascript" src="../js/menu.js"></script>
 <script type="text/javascript" src="../../../js/jquery-3.3.1.min.js"></script>

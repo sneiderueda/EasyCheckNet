@@ -3,5 +3,7 @@ function salir(){
 }
 
 function usuarios(){
-	location.href = "../../usuarios/vista/usuario.html";
-	}
+	$('.contenido').css('display','block');
+	$("#contenido").html("<iframe class='iframe' src='../../usuarios/vista/usuario.html'></iframe>");
+}
+	
